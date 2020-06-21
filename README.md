@@ -1,68 +1,49 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Instruction
 
-## Available Scripts
+# Submission
 
-In the project directory, you can run:
+Game URL: _____
 
-### `npm start`
+Mockup URL: https://balsamiq.cloud/s2qzdre/p51iths
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## How to do the question
+- Make a new branch `snake-game`.
+- `cd` into `snake-game-react` folder.
+- Run `npm install` in the `snake-game-react` folder.
+- Run `npm run start` to start the development server.
+- You can look at this [page](https://create-react-app.dev/docs/deployment/) for deployment.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+# Mandatory Features
+- You have to create a **Snake Game** using [`React`](https://reactjs.org/).  
+- If you don't know the mechanics of the game, here's a [link](https://playsnake.org/). Remember, your game doesn't have to be a copy of this. Only the mechanics are important.
+  - Don't try code extra features right now. **Focus on getting the basic flow correct with good user experience.**
+- The game should be playable using the 4 arrow keys.  
+- The game should be able to display a score. 
+- The game should be deployed on a static web hosting site such as `github.io` or `netlify.com`.
+- The UX/UI is totally up to you. 
+- The game should initially have no backend. Everything should run on the front-end.
 
-### `npm test`
+# Creating Mockups
+- Create a basic mockup before you start writing code for the game
+- Use [Balsamiq](https://balsamiq.cloud/) to create Mockups
+- Once you are done with the Mockup, click on `Share` on top right and enable `Allow Public Reviews` and copy the link and paste in the README above
+- The mockup should have all the major components that would be in the actual game
+- Don’t put too much focus on the quality of sketches put just enough details so you’ll be able to review and refine your sketches later
+- Sample Mockup, https://balsamiq.cloud/swxx4te/pkp3y50
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Requirements
+- The purpose of the exercise is to write good code and have good design.
+  - Don't try to finish the implementation. If your game is one large component, you will get 0 points. **Even if your game works.**
+- Hence, write readable and maintainable code. It will be reviewed.
+- Each component should have relevant tests.
+  - As many unit tests and/or integration tests. You can use Enzyme as well if you want.
+  - At least one E2E test. You can use [Cypress](https://www.cypress.io/).
+- Use React `hooks` and `Context` APIs for the most part.
+  - **Don't use `redux`**
+  - If you are using a class component, then it **must** have some life-cycle methods that `hooks` cannot do.
+- Feel free to use utility libraries like `lodash` or `ramda`. However, any library accomplishing major work of the assignment is prohibited. However, **Try not to use any more utility libraries.** Try to code the utilities yourself.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## Restrictions 
+- Don't copy paste code from anywhere on the web. We have plagiarism detectors and if we find that you have violated this policy, your candidature will be cancelled immediately without any further deliberation.
+- **Try not to use any more utility libraries.** Try to code the utilities yourself.
